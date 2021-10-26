@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log(5+5)})();
+(()=>{"use strict";console.log(function(o,e){return o+e}(5,5));let o=[];o.push("monkey"),console.log(o)})();
