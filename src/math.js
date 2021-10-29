@@ -3,8 +3,6 @@ function usdCNY (value) {
     return convert.toFixed(2).toString() + " Chinese Yuan"
     }
     
-    
-export {usdCNY}
 
 
 function usdCNY2 (value) {
@@ -12,5 +10,6 @@ function usdCNY2 (value) {
     return convert.toFixed(2).toString() + " Chinese Yuan"
     }
     
-    
+
+export {usdCNY}
 export {usdCNY2}
