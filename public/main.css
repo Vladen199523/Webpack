@@ -1,0 +1,143 @@
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Content/style.module.scss ***!
+  \***********************************************************************************************************************************/
+.eTTtVchPo2Vz_EwAl36v {
+  flex-grow: 1;
+}
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Content/component/Form/style.module.scss ***!
+  \**************************************************************************************************************************************************/
+.yQaPUF4tQZzV9Kcp_mz1 {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.R3FS_OFr5Q0jvXDuKdSU {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.TKGsh7fQZhO16bP1BVSp {
+  margin-top: 50px;
+  width: 40px;
+  height: 40px;
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/input/style.module.scss ***!
+  \**************************************************************************************************************************************/
+.YdTOKtZLkVfR9X6X7pOz {
+  border: 1px solid black;
+  padding: 5px;
+  outline: none;
+}
+/*!*****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/components/Todoitems/style.module.scss ***!
+  \*****************************************************************************************************************************************************/
+.vP5Cie78kgFR6dqnwfIA {
+  border: 1px solid red;
+  padding: 15px;
+}
+.vP5Cie78kgFR6dqnwfIA:not(:last-child) {
+  margin-bottom: 15px;
+}
+/*!********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/style.module.scss ***!
+  \********************************************************************************************************************************/
+.FKmLHz_SvhrExKYAz71Z {
+  margin: 15px auto;
+  max-width: 500px;
+  width: 100%;
+}
+/*!**********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Footer/style.module.scss ***!
+  \**********************************************************************************************************************************/
+.bjaqQDKXsl8OdKhffPzo {
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.rg7JXDLCRZk3pCNK2cMl {
+  color: red;
+}
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/menu/style.module.scss ***!
+  \**************************************************************************************************************************************************/
+.YtCMCB1Q4NwexF3EOFLC {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 0px;
+  margin-right: 100px;
+}
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/menu/menuitems/style.module.scss ***!
+  \************************************************************************************************************************************************************/
+.R5EYlKRjOHHS7eezqmSD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.J9fa9z2U3PJWew5gsy8G {
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 30px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+}
+/*!**********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/style.module.scss ***!
+  \**********************************************************************************************************************************/
+.gQGUvMDEepTC9riZ04uF {
+  height: 66px;
+  background: black;
+  display: flex;
+  flex-direction: raw;
+  align-items: center;
+}
+/*!***************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/phone/style.module.scss ***!
+  \***************************************************************************************************************************************************/
+.OjC2xGAHQqWWrxiVaaoS {
+  display: flex;
+  flex-direction: column;
+}
+/*!****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/phone/phonenumbers/style.module.scss ***!
+  \****************************************************************************************************************************************************************/
+.TnrdRGyVj8QrPQjHTdzA {
+  color: #ffffff !important;
+  text-decoration: none;
+  border-bottom: 1px solid #fbdc0c;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/App/style.module.scss ***!
+  \*******************************************************************************************************************************/
+.hDfVRHqgfZFCHd3uevt7 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/default.scss ***!
+  \*****************************************************************************************************************/
+body {
+  margin: 0;
+}

@@ -4,10 +4,15 @@ const path = require('path');
 module.exports = {
   devServer: {
     static: {
-      directory: path.resolve(__dirname, ''),
+      directory: path.resolve(__dirname, 'public'),
     },
     open: true,
     liveReload: true,
+  },
+  resolve: {
+    alias:{
+    components: path.resolve(__dirname, 'src/components')
+    }
   },
   
   entry: path.resolve(__dirname, 'index.js'),
@@ -26,7 +31,11 @@ module.exports = {
           {
             test: /\.scss$/,
             use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
-          }
+          },
+          {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+          },
       ]
   }
 };
