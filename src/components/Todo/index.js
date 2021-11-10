@@ -9,11 +9,11 @@ class Todo extends React.Component {
 
         this.state = {
             todos: [
-                "buy bread",
-                "buy bread", 
-                "buy bread",
-                "buy bread",
-                "buy bread",
+                "Сходить в магазин",
+                "Сделать домашнее задание", 
+                "Помыть посуду",
+                "Пропылесосить",
+                "Заправить машину",
             ]
         }
     }

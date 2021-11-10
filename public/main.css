@@ -2,7 +2,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Content/style.module.scss ***!
   \***********************************************************************************************************************************/
 .eTTtVchPo2Vz_EwAl36v {
+  padding-top: 50px;
+  margin-top: 0px;
   flex-grow: 1;
+  background-color: grey;
 }
 /*!**************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Content/component/Form/style.module.scss ***!
@@ -38,10 +41,19 @@
   \*****************************************************************************************************************************************************/
 .vP5Cie78kgFR6dqnwfIA {
   border: 1px solid red;
-  padding: 15px;
+  padding: 10px;
+  border-radius: 20px;
 }
 .vP5Cie78kgFR6dqnwfIA:not(:last-child) {
   margin-bottom: 15px;
+}
+/*!***************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/button/style.module.scss ***!
+  \***************************************************************************************************************************************/
+.NhOcimNy25UVffXJtiaQ {
+  background-color: grey;
+  border-radius: 2px;
+  margin-left: 300px;
 }
 /*!********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/style.module.scss ***!
@@ -55,19 +67,8 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Footer/style.module.scss ***!
   \**********************************************************************************************************************************/
 .bjaqQDKXsl8OdKhffPzo {
-  background: yellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-}
-
-.rg7JXDLCRZk3pCNK2cMl {
-  color: red;
+  background-color: black;
+  height: 60px;
 }
 /*!**************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/menu/style.module.scss ***!

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../button'
+import styles from './style.module.scss';
 
 class Button extends React.Component {
     constructor (props) {
@@ -10,7 +10,7 @@ class Button extends React.Component {
 
     render () {
         return (
-            <button className={styles.button}>click me
+            <button className={styles.button}>Well done
             </button>
         )
     }
