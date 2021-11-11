@@ -33,11 +33,11 @@ class Table extends React.Component {
 
 
     onClickHandler = () => {
-        if (this.state.name == '' || this.state.code == '') {
+        if (this.state.name == '') {
             alert ('Пожалуйста, заполните все обязательные поля')
         }
         else {
-            alert (this.state.name + ' ' +this.state.code)
+            alert (this.state.name + ' ' + this.state.code)
         }
     }
     
