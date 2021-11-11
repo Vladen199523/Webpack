@@ -1,0 +1,13 @@
+.table {
+    height:300px;
+    width:250px;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.placeholder {
+    color:green;
+}

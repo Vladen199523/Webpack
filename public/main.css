@@ -6,6 +6,10 @@
   margin-top: 0px;
   flex-grow: 1;
   background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 100px;
 }
 /*!**************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Content/component/Form/style.module.scss ***!
@@ -35,6 +39,8 @@
   border: 1px solid black;
   padding: 5px;
   outline: none;
+  width: 190px;
+  margin-bottom: 10px;
 }
 /*!*****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/components/Todoitems/style.module.scss ***!
@@ -51,9 +57,13 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/button/style.module.scss ***!
   \***************************************************************************************************************************************/
 .NhOcimNy25UVffXJtiaQ {
-  background-color: grey;
+  background-color: yellow;
   border-radius: 2px;
-  margin-left: 300px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*!********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/style.module.scss ***!
@@ -62,6 +72,55 @@
   margin: 15px auto;
   max-width: 500px;
   width: 100%;
+}
+/*!*********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Table/style.module.scss ***!
+  \*********************************************************************************************************************************/
+.rmsubTxQ9zgGLc4n0MsU {
+  height: 300px;
+  width: 250px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LE1NpbM6oBIVI6cbxABn {
+  color: green;
+}
+/*!*****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Table/Components/Subtitle/style.module.scss ***!
+  \*****************************************************************************************************************************************************/
+.dttMhG7wTpi7XWs7WWkw {
+  margin-bottom: 10px;
+}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Table/Components/Subtitle/Subtitleitems/style.module.scss ***!
+  \*******************************************************************************************************************************************************************/
+.t2hBIZ1Tnr9qbdRpQsdO {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  margin-bottom: 4px;
+}
+.t2hBIZ1Tnr9qbdRpQsdO:last-child {
+  margin-bottom: 6px;
+}
+
+.b8QiP_oAFRByyOOwo5gS {
+  display: flex;
+  text-align: left;
+  margin-left: -36px;
+}
+
+.QSo0OFXyVexEcXR9zcOQ {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 4px;
 }
 /*!**********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Footer/style.module.scss ***!
@@ -80,9 +139,9 @@
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
-  padding-left: 300px;
+  padding-left: 100px;
   padding-right: 0px;
-  margin-right: 100px;
+  margin-right: 10px;
 }
 /*!************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/menu/menuitems/style.module.scss ***!
@@ -94,9 +153,9 @@
 }
 
 .J9fa9z2U3PJWew5gsy8G {
-  color: #ffffff;
+  color: white;
   font-weight: 600;
-  margin-right: 30px;
+  margin-right: 40px;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 16px;
 }
@@ -127,6 +186,31 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
+}
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/images/Logo/style.module.scss ***!
+  \*********************************************************************************************************************************************************/
+.LhwZYhVQhejqXFkaQFth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-left: 40px;
+}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Header/components/images/Social/style.module.scss ***!
+  \***********************************************************************************************************************************************************/
+.wiowBQT7E8A_y98NAE1f {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+.v643DDVRnDtBDJLQlg8n {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  margin-right: 6px;
 }
 /*!*******************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/App/style.module.scss ***!
