@@ -12,6 +12,8 @@ class Table extends React.Component {
         this.state = {
             name: '',
             code: '',
+            hasError: false,
+            hasError2: false,
         }
 
 
@@ -20,12 +22,14 @@ class Table extends React.Component {
 
 
     onChangeInputHandler1 = (e) => {
+        e.preventDefault()
         this.setState ({
             name:e.target.value
         })
     }
 
     onChangeInputHandler2 = (e) => {
+        e.preventDefault()
         this.setState ({
             code:e.target.value
         })
@@ -34,7 +38,10 @@ class Table extends React.Component {
 
     onClickHandler = () => {
         if (this.state.name == '') {
-            alert ('Пожалуйста, заполните все обязательные поля')
+            this.setState ({
+            hasError: true,
+            hasError2:true
+            })
         }
         else {
             alert (this.state.name + ' ' + this.state.code)
@@ -49,7 +56,9 @@ class Table extends React.Component {
             <div className = {styles.table}>
                 <Subtitle/>
                 <Input onChange = {this.onChangeInputHandler1}/>
+                {this.state.hasError && <div className = {styles.error}>Обязательное поле</div>}
                 <Input onChange = {this.onChangeInputHandler2}/>
+                {this.state.hasError2 && <div className = {styles.error2}>Пожалуйста, заполните все обязательные поля</div>}
                 <Button onClick = {this.onClickHandler}>Записаться</Button>
             </div>
         )
