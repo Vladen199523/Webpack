@@ -1,10 +1,35 @@
 .content {
-    padding-top:50px;
-    margin-top:0px;
     flex-grow:1;
-    background-color:grey;
     display:flex;
     align-items:center;
-    justify-content:end;
-    padding-right:100px;
+    justify-content:center;
+    border:1px solid green;
+    background-color: cadetblue;
+}
+
+
+.HW {
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:60px;
+    padding-right:20px;
+    border:1px solid green;
+    border-radius: 10px;
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.side {
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    border: 1px solid red;
+    border-radius:5px;
+    margin-right:40px;
 }

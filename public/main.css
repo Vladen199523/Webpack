@@ -8,7 +8,7 @@
   background-color: grey;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   padding-right: 100px;
 }
 /*!**************************************************************************************************************************************************!*\
@@ -42,17 +42,6 @@
   width: 190px;
   margin-bottom: 10px;
 }
-/*!*****************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/components/Todoitems/style.module.scss ***!
-  \*****************************************************************************************************************************************************/
-.vP5Cie78kgFR6dqnwfIA {
-  border: 1px solid red;
-  padding: 10px;
-  border-radius: 20px;
-}
-.vP5Cie78kgFR6dqnwfIA:not(:last-child) {
-  margin-bottom: 15px;
-}
 /*!***************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/button/style.module.scss ***!
   \***************************************************************************************************************************************/
@@ -64,30 +53,60 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+}
+/*!*****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/components/Todoitems/style.module.scss ***!
+  \*****************************************************************************************************************************************************/
+.vP5Cie78kgFR6dqnwfIA {
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.vP5Cie78kgFR6dqnwfIA:not(:last-child) {
+  margin-bottom: 15px;
 }
 /*!********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Todo/style.module.scss ***!
   \********************************************************************************************************************************/
 .FKmLHz_SvhrExKYAz71Z {
   margin: 15px auto;
-  max-width: 500px;
+  max-width: 250px;
   width: 100%;
 }
 /*!*********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Table/style.module.scss ***!
   \*********************************************************************************************************************************/
 .rmsubTxQ9zgGLc4n0MsU {
-  height: 300px;
-  width: 250px;
+  padding: 20px;
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 2px solid white;
 }
 
-.LE1NpbM6oBIVI6cbxABn {
-  color: green;
+.yBYtBk8_pvFdmKpZzhRT {
+  font-size: 12px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.EN2G_SJrTaqb7nQSaJLT {
+  font-size: 10px;
+  padding: 5px;
+  background-color: brown;
+  margin-bottom: 6px;
+  width: 190px;
+  text-align: center;
 }
 /*!*****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Table/Components/Subtitle/style.module.scss ***!
@@ -121,6 +140,25 @@
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin-bottom: 4px;
+}
+/*!*************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/users/components/list/style.module.scss ***!
+  \*************************************************************************************************************************************************/
+.DkhsgLUvgGMZEgcEzkqN {
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/users/components/list/components/useritem/style.module.scss ***!
+  \*********************************************************************************************************************************************************************/
+.rLx6yyMk6USmDgOc4RXS {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
 }
 /*!**********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Footer/style.module.scss ***!
@@ -203,12 +241,12 @@
 .wiowBQT7E8A_y98NAE1f {
   display: flex;
   flex-direction: row;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 
 .v643DDVRnDtBDJLQlg8n {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: black;
   margin-right: 6px;
 }
